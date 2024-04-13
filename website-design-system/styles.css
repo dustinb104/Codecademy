@@ -44,3 +44,42 @@ body{
 .purple{
     background-color: #9d4edd;
 }
+
+.font-container{
+    display: block;
+}
+
+.font-box{
+    display: inline-block;
+    width: 35%;
+    min-height: 200px;
+}
+
+.font-lable{
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.platypi{
+    font-family: 'Platypi';
+}
+
+.poppins{
+    font-family: 'Poppins';
+}
+
+.crimson-text{
+    font-family: 'Crimson Text';
+}
+
+.regular{
+    font-style: normal;
+}
+
+.italics{
+    font-style: italic;
+}
+
+.bold{
+    font-weight: 700;
+}
