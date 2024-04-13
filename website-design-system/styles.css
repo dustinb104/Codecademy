@@ -1,0 +1,45 @@
+body{
+    margin: 0 10%;
+}
+
+.sections{
+    border: 1px solid black;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: 10px auto;
+}
+
+.color-container{
+    display:flex;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.rectangle{
+    min-height: 100px;
+    width: 32%;
+    height: 50%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+
+.blue{
+    background-color: #005F73;
+}
+
+.red{
+    background-color: #AE2012;
+}
+
+.green{
+    background-color: #7bf1a8;
+}
+
+.aqua{
+    background-color: #00ffff;
+}
+
+.purple{
+    background-color: #9d4edd;
+}
