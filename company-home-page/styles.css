@@ -1,7 +1,7 @@
 .image{
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: fit;
 }
 
 .image-size{
@@ -11,18 +11,13 @@
 }
 
 .title{
-    font-size: 100px;
-    grid-column-start: 2;
-    grid-column-end: span 2;
-    grid-row-start: 2;
-    grid-row-end: span 1;
+    font-size: 70px;
 }
 
-.header {
+.header-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 100px 100px;
-    border: thick solid;
+    grid-template-rows: 75% 25%;
 }
 
 .header-item-1{
@@ -32,9 +27,19 @@
     grid-row-end: 1;
 }
 
-.header-item-1{
+.header-item-2{
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 2;
+    /* border: thick solid; */
+    justify-self: center;
+    /* justify-items: center; */
+}
+
+.item{
+    /* border: thick solid; */
+    width: auto;
+    display: inline-block;
+    justify-items: center;
 }
