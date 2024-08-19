@@ -43,3 +43,7 @@
     display: inline-block;
     justify-items: center;
 }
+
+.employee-container{
+    display: grid;
+}
